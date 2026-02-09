@@ -8,13 +8,26 @@
 .films{
     display: flex;
     flex-wrap: wrap;
-    gap: 40px;
+    row-gap: 20px;
+    column-gap: 40px;
 }
 
 nav ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 24px;
+}
+
+.text3{
+    font-size: 24px;
+    color: #000000;
+}
+
+.text4{
+    font-size: 14px;
+    color: #000000;
+    gap: 5px;
 }
 
 nav{
@@ -29,16 +42,43 @@ input{
     background-color: #F2F0F3;
     padding: 13px 0 13px 46px;
         border-radius: 8px; 
+        border: none;
 }
 
 .text2{
     display: flex;
     justify-content: space-between;
     align-items: center ;
+    width: 1360px;
+    height: 79px;
+    padding: 50px 0 0 0;
+}
+
+.spisok ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 943px;
+    height: 10px;
+    margin: 0 auto;
+}
+
+.spisok ul li{
+    font-size: 14px;
+    color: #FFFFFF;
 }
 
 .spisok{
-    list-style: none;
+    width: 1360px;
+    height: 30px;
+    padding: 10px 209px 10px 208px;
+    background-color: #FF7A00;
+    margin-bottom: 5px;
+}
+
+.text2 p{
+    display: flex;
+    align-items: center;
 }
 
 .imges{
@@ -68,6 +108,8 @@ section{
     height: 850px;
     margin: 0 auto;
     overflow: scroll;
+    padding: 20px 0 20px 0;
+    margin-top: 5px;
 }
 
 .films::-webkit-scrollbar{
@@ -77,4 +119,27 @@ section{
 .text{
     width: 310px;
     height: 400px;
+    gap: 10px;
+}
+
+.text div img{
+    width: 310px;
+    height: 323px;
+}
+
+.films__text{
+    width: 310px;
+    height: 67px;
+    padding: 15px 57px 15px 0;
+}
+
+.films__text2{
+    font-size: 14px;
+    color: #00000080;
+}
+
+.films__text1{
+    font-size: 16px;
+    color:#000000;
+    font-weight: 700;
 }

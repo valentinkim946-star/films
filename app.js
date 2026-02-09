@@ -10,6 +10,17 @@ const films = [
     isAvailable: true,
     image: "https://picsum.photos/id/101/300/300"
   },
+    {
+    id: 1,
+    title: "Wireless Mouse",
+    price: 25,
+    category: "Electronics",
+    stock: 120,
+    rating: 4.5,
+    brand: "Logitech",
+    isAvailable: true,
+    image: "https://picsum.photos/id/101/300/300"
+  },
   {
     id: 2,
     title: "Mechanical Keyboard",
@@ -259,9 +270,9 @@ while (i < films.length) {
 <div class="films__cantiner">
 <img src="${films[i].image}" alt="${films[i].title}">
 </div>
-<div>
-    <p>${films[i].title}</p>
-    <p>${films[i].brand}</p>
+<div class="films__text">
+    <p class="films__text1">${films[i].title}</p>
+    <p class="films__text2">${films[i].brand}</p>
 
         </div>
         </div>
