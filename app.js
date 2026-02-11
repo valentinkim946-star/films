@@ -1,15 +1,4 @@
 const films = [
-  {
-    id: 1,
-    title: "Wireless Mouse",
-    price: 25,
-    category: "Electronics",
-    stock: 120,
-    rating: 4.5,
-    brand: "Logitech",
-    isAvailable: true,
-    image: "https://picsum.photos/id/101/300/300"
-  },
     {
     id: 1,
     title: "Wireless Mouse",
