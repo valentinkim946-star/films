@@ -143,3 +143,74 @@ section{
     color:#000000;
     font-weight: 700;
 }
+
+.films__text{
+    display: flex;
+    justify-content: space-between;
+}
+
+.big_haver{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgb(255, 255, 255, 0.32);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    display: none;
+}
+
+.text6{
+    width: 760px;
+    height: 639px;
+    background-color: #F2F0F3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.close-modal{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #FFFFFF;
+    border: 2px black solid;
+}
+
+.text6 img{
+    width: 760px;
+    height: 572px;
+    object-fit: cover;  
+    margin-bottom: 41px;
+}
+
+.span-clos{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-bottom: 20px;
+}
+
+.text6 div{
+    position: relative;
+}
+
+.text222{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text222 h3{
+    padding-bottom: 35px;
+}
+
+.text222 p{
+    padding-bottom: 35px;
+}
+
